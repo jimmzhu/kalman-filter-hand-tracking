@@ -3,6 +3,7 @@ formatted_results_mat = 'test_v1_tracking.mat';
 labels_mat = 'test_v1_labels.mat';
 tracking_visual_mat = 'test_v1_visual.mat';
 image_dir = 'data/test/pos/';
+wheel_region = [30 270 276 76];
 
 output_dir = 'test_v1/tracking_output/';
 load(labels_mat);
@@ -56,7 +57,6 @@ if ~exist('imframes', 'var')
   [M, N, ~, F] = size(imframes);
 end
 
-wheel_region = [30 270 276 76];
 wheel_topLeft = wheel_region(1:2);
 wheel_bottomRight = wheel_region(1:2)+wheel_region(3:4);
 lrhdp_center = cat(3, lhd_center, rhd_center, lhp_center, rhp_center);
