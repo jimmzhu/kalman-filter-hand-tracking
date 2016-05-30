@@ -1,0 +1,5 @@
+data/test/pos/
+data/train/pos/
+
+**/tracking_output/*.png
+octave-workspace

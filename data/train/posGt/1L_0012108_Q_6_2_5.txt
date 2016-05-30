@@ -1,0 +1,5 @@
+% bbGt version=3
+leftHand_driver 150 303 71 63 0 0 0 0 0 0 0
+rightHand_driver 231 281 82 76 0 0 0 0 0 0 0
+leftHand_passenger 490 356 93 73 0 0 0 0 0 0 0
+rightHand_passenger 568 320 66 66 0 0 0 0 0 0 0

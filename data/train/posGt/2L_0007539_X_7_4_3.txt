@@ -1,0 +1,3 @@
+% bbGt version=3
+leftHand_driver 70 270 89 77 0 0 0 0 0 0 0
+rightHand_driver 325 131 74 96 0 0 0 0 0 0 0
